@@ -17,6 +17,10 @@ int main() {
   float a = 10.5;
   float b = 20.5;
   cout << "Max(10.5, 20.5): " << Max(a, b) << endl;
+
+  string first = "First";
+  string second = "Second";
+  cout << "Max('First', 'Second'): " << Max(first, second) << endl;
   
   return 0;
 }
